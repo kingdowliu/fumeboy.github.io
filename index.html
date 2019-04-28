@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>收藏我</title>
+    <!--<link href="//cdn.bootcss.com/skeleton/2.0.4/skeleton.css" rel="stylesheet">-->
+    <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/markdown-it/8.4.2/markdown-it.js"></script>
+    <script src="highlight.pack.js"></script>
+    <script>
+        window.searchMap = location.search.substr(1).split('&').reduce(function (r, it) {
+            let them = it.split('=');
+            r[them[0]] = them[1];
+            return r;
+        }, {});
+        $.ajaxSetup({async: false});
+    </script>
+</head>
+<body>
+<div id="category" class="markdown-body"></div>
+
+<div class="markdown-html markdown-body">
+    <script>
+        let md = markdownit({
+            html: true,
+            linkify: true,
+            typography: true,
+            highlight: function (str, lang) {
+                if (lang && hljs.getLanguage(lang)) {
+                    try {
+                        return '<pre class="hljs"><code>' +
+                            hljs.highlight(lang, str, true).value +
+                            '</code></pre>';
+                    } catch (__) {
+                    }
+                }
+
+                return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
+            }
+        });
+
+        $.get((searchMap.md || 'readme.md'), function (text) {
+            document.write(md.render(text));
+        });
+        // Actual default values
+    </script>
+</div>
+<div id="category2" class="markdown-body">
+    <script>
+        $.get(('index.md'), function (text) {
+            document.write(md.render(text));
+        });
+    </script>
+</div>
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("h2,h3").each(function (i, item) {
+            let tag = $(item).get(0).localName;
+            $(item).attr("id", "wow" + i);
+            if (tag === "h2") {
+                $("#category").append('<li class="list_circle"><a class="new' + tag + '" href="#wow' + i + '">' + $(this).text() + '</a></li>');
+            }else{
+                $("#category").append('<li><a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></li>');
+
+            }
+        });
+    });
+</script>
+<link rel="stylesheet" href="styles/qtcreator_light.css">
+<link rel="stylesheet" type="text/css" href="main.css"/>
+</html>
