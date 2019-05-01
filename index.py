@@ -8,6 +8,8 @@ cate_dict = {
     'C tutorial': 'C',
     '程序员的自我修养': 'culture',
 }
+ignore = ['.DS_Store']
+
 strr = ''
 print(cate_dict.keys())
 for one in cate_dict:
@@ -15,6 +17,8 @@ for one in cate_dict:
     pre_name = cate_dict[one]
     listt = os.listdir('./' + pre_name)
     for two in listt:
+        if two in ignore:
+            continue
         address = pre_name + '/' + two
         name = ''
         with open(address, 'r') as f:
