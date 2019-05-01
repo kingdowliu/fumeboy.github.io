@@ -1,5 +1,5 @@
 # C语言中“.”与“->”有什么区别？
-# whats-difference-between-dot&arrow-in-c-language
+# whats-difference-between-dot-and-arrow-in-c-language
 
 ## 原問題：C语言中“.”与“->”有什么区别？
 
