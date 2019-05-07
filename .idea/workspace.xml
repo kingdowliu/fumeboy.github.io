@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d1683fb-5b1a-4ef5-b861-2576bd5cdaf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/how-to-output-helloworld-in-c-without-brackets.md" beforeDir="false" afterPath="$PROJECT_DIR$/C/how-to-output-helloworld-in-c-without-brackets.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C/t0.md" beforeDir="false" afterPath="$PROJECT_DIR$/C/t0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,10 +149,10 @@
         <option value="$PROJECT_DIR$/C/C语言中“.”与“-&gt;”有什么区别.md" />
         <option value="$PROJECT_DIR$/index.py" />
         <option value="$PROJECT_DIR$/C/whats-difference-between-dot-and-arrow-in-c-language.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/C/a.md" />
         <option value="$PROJECT_DIR$/WEB/whats-web.md" />
         <option value="$PROJECT_DIR$/C/how-to-output-helloworld-in-c-without-brackets.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -270,17 +270,18 @@
       <workItem from="1557119910544" duration="515000" />
       <workItem from="1557139032877" duration="634000" />
       <workItem from="1557154272336" duration="680000" />
-      <workItem from="1557204609738" duration="1807000" />
+      <workItem from="1557204609738" duration="2832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29111000" />
+    <option name="totallyTimeSpent" value="30136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="720" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30211726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30211726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,7 +295,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26436782" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26436782" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,13 +381,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/a.md" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/Demystifying-the-Type-Declarations-in-C.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -494,6 +488,13 @@
             <caret column="16" selection-start-column="16" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
         </state>
       </provider>
     </entry>
