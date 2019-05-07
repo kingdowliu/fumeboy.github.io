@@ -75,7 +75,7 @@ global main
 
 这一段就是可以输出helloworld的汇编语言，用nasm编译之后，我们开始用objdump反汇编生成的文件
 
-![img](/Users/mac/Downloads/bbb.png)
+![img](./public/bbb.png)
 
 这时候再把前面对应的机器码依次用c写入
 
